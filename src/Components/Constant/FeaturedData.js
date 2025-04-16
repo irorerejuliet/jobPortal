@@ -18,7 +18,7 @@ export const featuredData = [
   },
   {
     id: 3,
-    image: "/images/iosDeveloper.png",
+    image: "/images/react.png",
     name: "Company RM. Full-time",
     title: "Senior iOS Developer",
     description: "in the spotlight",
@@ -26,7 +26,8 @@ export const featuredData = [
     site: "Remote",
   },
   {
-    image: "/images/iosDeveloper.png",
+    id: 4,
+    image: "/images/Andriod.png",
     name: "Company XY. Full-time",
     title: "Senior iOS Developer",
     description: "in the spotlight",
@@ -34,7 +35,8 @@ export const featuredData = [
     site: "Remote",
   },
   {
-    image: "/images/iosDeveloper.png",
+    id: 5,
+    image: "/images/flutter.png",
     name: "Company XY. Full-time",
     title: "Senior iOS Developer",
     description: "in the spotlight",
@@ -42,7 +44,8 @@ export const featuredData = [
     site: "Remote",
   },
   {
-    image: "/images/iosDeveloper.png",
+    id: 6,
+    image: "/images/netApplication.png",
     name: "Company XY. Full-time",
     title: "Senior iOS Developer",
     description: "in the spotlight",

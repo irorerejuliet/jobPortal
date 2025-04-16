@@ -15,10 +15,10 @@ const NavBar = () => {
       </div>
       <Link
         to="#"
-        className="bg-[#0057FF] text-white rounded-[40px] text-sm font-medium"
+        className="bg-Tertiary text-white rounded-[40px] text-sm font-medium"
       >
         <button className="flex gap-2 items-center py-1 px-3">
-          <CiCirclePlus className="bg-white rounded-full text-[#0057FF] text-sm" />
+          <CiCirclePlus className="bg-white rounded-full text-Tertiary text-sm" />
           Post a Job
         </button>
       </Link>
