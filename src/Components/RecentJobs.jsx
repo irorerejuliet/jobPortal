@@ -62,9 +62,12 @@ const RecentJobs = () => {
         Recent Jobs
       </h2>
       {RecentJobData.map(({ id, image, name, title, date, city, site }) => (
-        <div className="md:flex flex-row items-center justify-between p-4 bg-white rounded-2xl shadow-md hover:shadow-lg transition py-4 px-5  border border-gray-200 md:w-[880px] w-[358px]">
+        <div
+          className="md:flex flex-row items-center justify-between p-4 bg-white rounded-2xl shadow-md hover:shadow-lg transition py-4 px-5  border border-gray-200 md:w-[880px] w-[358px]"
+          key={id}
+        >
           {/* Left: Logo and Text */}
-          <div className="md:flex flex-row items-center gap-4" key={id}>
+          <div className="md:flex flex-row items-center gap-4">
             <img
               src={image}
               alt="reactNative"
@@ -73,7 +76,7 @@ const RecentJobs = () => {
 
             <div className="md:text-start text-center">
               <p className="text-base font-bold text-primary ">{name}</p>
-              <h2 className="md:text-2xl text-xl font-medium">{title}</h2>
+              <h2 className="md:text-2xl text-xl font-medium">{title} Remi</h2>
             </div>
           </div>
 

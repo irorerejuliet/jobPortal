@@ -12,7 +12,7 @@ const Footer = () => {
           <p>Privacy Policy</p>
         </div>
         <div className="flex items-center gap-6">
-          <FaXTwitter className="rounded-full " />
+          <FaXTwitter className="rounded-full border border-gray-400 p-5 shadow-md" />
           <CiInstagram />
           <FaYoutube />
           <FaLinkedin />
@@ -25,7 +25,7 @@ const Footer = () => {
           Powered by
           <span className="text-Tertiary text-sm font-medium">Webflow</span>
         </p>
-        <div className="flex  items-center md:gap-5 gap-2">
+        <div className="flex  items-center md:gap-5 gap-2 text-sm font-medium">
           <p>Style Guide</p>
           <p>Instruction</p>
           <p>Changelog</p>
