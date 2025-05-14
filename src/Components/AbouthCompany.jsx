@@ -1,4 +1,5 @@
 import React from 'react'
+import { responsibilityData } from './Constant/responsibilityData';
 
 const AbouthCompany = () => {
   return (
@@ -44,36 +45,13 @@ const AbouthCompany = () => {
         </p>
         <h3 className="text-2xl font-medium pt-4">Responsibilities</h3>
         <ul className="md:w-[688px] w-[358px] list-disc pl-7 text-[#000000B3] text-base font-normal leading-8 pt-5">
-          <li>
-            Own projects on the roadmap end-to-end to ship high-quality
-            experiences for advisors and clients.
-          </li>
-          <li>
-            Contribute to the Savvy design system by editing our component
-            library in Figma and working closely with our engineering team to
-            ship changes.
-          </li>
-          <li>
-            Shape our product, map customer journeys, and craft a cohesive
-            design system.
-          </li>
-          <li>
-            Champion our customers' needs and ensure our solutions meet and
-            exceed their expectations.
-          </li>
-          <li>
-            Collaborate closely with our engineering team to deliver
-            high-quality, polished products.
-          </li>
-          <li>
-            Foster design thinking and facilitate generative discussions with
-            cross-functional partners, promoting a culture of innovation and
-            collaboration.
-          </li>
-          <li>
-            Participate in brand and design projects, working alongside external
-            design agencies to ensure a consistent and impactful brand presence.
-          </li>
+          {responsibilityData.map(({ id, title }) => (
+            <div key={id}>
+              <li>
+                {title}
+              </li>
+            </div>
+          ))}
         </ul>
       </div>
       <div>
